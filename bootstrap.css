@@ -4,6 +4,18 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+ td {
+    text-align: center; /* center checkbox horizontally */
+    vertical-align: middle; /* center checkbox vertically */
+}
+table {
+    border: 1px solid;
+    width: 200px;
+}
+tr {
+    height: 60px;   
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -1541,12 +1553,12 @@ pre code {
 }
 
 .table-bordered {
-  border: 1px solid #dee2e6;
+  border: 2px solid #dee2e6;
 }
 
 .table-bordered th,
 .table-bordered td {
-  border: 1px solid #dee2e6;
+  border: 4px solid #dee2e6;
 }
 
 .table-bordered thead th,
